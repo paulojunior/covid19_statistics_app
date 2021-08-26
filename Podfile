@@ -6,5 +6,7 @@ target 'covid19_statistics_app' do
   use_frameworks!
 
   # Pods for covid19_statistics_app
+  pod 'Alamofire', '~> 5.0'
+  pod 'SwiftyJSON', '~> 4.0'
 
 end
