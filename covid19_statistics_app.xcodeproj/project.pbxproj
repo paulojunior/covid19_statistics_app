@@ -16,6 +16,9 @@
 		790E3B4226D8511F007C306A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790E3B4126D8511F007C306A /* Preview Assets.xcassets */; };
 		790E3B4426D8511F007C306A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790E3B4326D8511F007C306A /* Persistence.swift */; };
 		790E3B4726D8511F007C306A /* covid19_statistics_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 790E3B4526D8511F007C306A /* covid19_statistics_app.xcdatamodeld */; };
+		79C957B226D9966500C23787 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B126D9966500C23787 /* RecentView.swift */; };
+		79C957B426D9976600C23787 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B326D9976600C23787 /* ListHeaderView.swift */; };
+		79C957B626D998A100C23787 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B526D998A100C23787 /* ListRowView.swift */; };
 		8B1EEBE4114C69BEAD486B64 /* Pods_covid19_statistics_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CEEA38B86ACA3D8DF56F15 /* Pods_covid19_statistics_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +35,9 @@
 		790E3B4326D8511F007C306A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		790E3B4626D8511F007C306A /* covid19_statistics_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = covid19_statistics_app.xcdatamodel; sourceTree = "<group>"; };
 		790E3B4826D8511F007C306A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C957B126D9966500C23787 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
+		79C957B326D9976600C23787 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
+		79C957B526D998A100C23787 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		8AF8B5CCEF435CAA9EC8B32E /* Pods-covid19_statistics_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid19_statistics_app.release.xcconfig"; path = "Target Support Files/Pods-covid19_statistics_app/Pods-covid19_statistics_app.release.xcconfig"; sourceTree = "<group>"; };
 		EC28E6319A1D4CBFABA583A1 /* Pods-covid19_statistics_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid19_statistics_app.debug.xcconfig"; path = "Target Support Files/Pods-covid19_statistics_app/Pods-covid19_statistics_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +110,9 @@
 				790E3B4826D8511F007C306A /* Info.plist */,
 				790E3B4526D8511F007C306A /* covid19_statistics_app.xcdatamodeld */,
 				790E3B4026D8511F007C306A /* Preview Content */,
+				79C957B126D9966500C23787 /* RecentView.swift */,
+				79C957B326D9976600C23787 /* ListHeaderView.swift */,
+				79C957B526D998A100C23787 /* ListRowView.swift */,
 			);
 			path = covid19_statistics_app;
 			sourceTree = "<group>";
@@ -239,11 +248,14 @@
 			files = (
 				2E15098D26D85F190060BE03 /* Country.swift in Sources */,
 				790E3B4726D8511F007C306A /* covid19_statistics_app.xcdatamodeld in Sources */,
+				79C957B426D9976600C23787 /* ListHeaderView.swift in Sources */,
 				790E3B4426D8511F007C306A /* Persistence.swift in Sources */,
 				790E3B3D26D8511C007C306A /* ContentView.swift in Sources */,
 				2E15098B26D85E260060BE03 /* Total.swift in Sources */,
 				790E3B3B26D8511C007C306A /* covid19_statistics_appApp.swift in Sources */,
+				79C957B626D998A100C23787 /* ListRowView.swift in Sources */,
 				2E15098726D85AC20060BE03 /* CovidRequest.swift in Sources */,
+				79C957B226D9966500C23787 /* RecentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
