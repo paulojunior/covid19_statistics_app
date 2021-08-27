@@ -19,6 +19,7 @@
 		79C957B226D9966500C23787 /* RecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B126D9966500C23787 /* RecentView.swift */; };
 		79C957B426D9976600C23787 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B326D9976600C23787 /* ListHeaderView.swift */; };
 		79C957B626D998A100C23787 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B526D998A100C23787 /* ListRowView.swift */; };
+		79C957B926D9998200C23787 /* Extension+Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C957B826D9998200C23787 /* Extension+Int.swift */; };
 		8B1EEBE4114C69BEAD486B64 /* Pods_covid19_statistics_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CEEA38B86ACA3D8DF56F15 /* Pods_covid19_statistics_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		79C957B126D9966500C23787 /* RecentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentView.swift; sourceTree = "<group>"; };
 		79C957B326D9976600C23787 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		79C957B526D998A100C23787 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		79C957B826D9998200C23787 /* Extension+Int.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Int.swift"; sourceTree = "<group>"; };
 		8AF8B5CCEF435CAA9EC8B32E /* Pods-covid19_statistics_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid19_statistics_app.release.xcconfig"; path = "Target Support Files/Pods-covid19_statistics_app/Pods-covid19_statistics_app.release.xcconfig"; sourceTree = "<group>"; };
 		EC28E6319A1D4CBFABA583A1 /* Pods-covid19_statistics_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-covid19_statistics_app.debug.xcconfig"; path = "Target Support Files/Pods-covid19_statistics_app/Pods-covid19_statistics_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		790E3B3926D8511C007C306A /* covid19_statistics_app */ = {
 			isa = PBXGroup;
 			children = (
+				79C957B726D9996F00C23787 /* Extensions */,
 				2E15098926D85E120060BE03 /* Models */,
 				2E15098826D85E080060BE03 /* Services */,
 				790E3B3A26D8511C007C306A /* covid19_statistics_appApp.swift */,
@@ -123,6 +126,14 @@
 				790E3B4126D8511F007C306A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79C957B726D9996F00C23787 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79C957B826D9998200C23787 /* Extension+Int.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		8B5AA144D22B358565545EF3 /* Frameworks */ = {
@@ -246,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C957B926D9998200C23787 /* Extension+Int.swift in Sources */,
 				2E15098D26D85F190060BE03 /* Country.swift in Sources */,
 				790E3B4726D8511F007C306A /* covid19_statistics_app.xcdatamodeld in Sources */,
 				79C957B426D9976600C23787 /* ListHeaderView.swift in Sources */,
