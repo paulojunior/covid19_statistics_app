@@ -23,6 +23,3 @@ struct TotalData {
         return (100.00 * Double(recovered)) / Double(confirmed)
     }
 }
-
-
-

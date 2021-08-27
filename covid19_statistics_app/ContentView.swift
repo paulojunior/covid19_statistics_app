@@ -7,7 +7,7 @@ struct ContentView: View {
     @ObservedObject var covidFetch = CovidRequest()
     
     var body: some View {
-        Text("Hello, World!")
+        Text("\(covidFetch.totalData.confirmed)")
     }
 }
 
